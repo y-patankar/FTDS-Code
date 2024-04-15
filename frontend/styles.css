@@ -1,0 +1,41 @@
+body {
+    background-color: #f4f5f7;
+    font-family: 'Arial', sans-serif;
+    margin-top: 40px;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h1.text-center {
+    color: #333;
+    font-weight: 300;
+}
+
+.custom-file-input {
+    cursor: pointer;
+}
+
+.custom-file-label::after {
+    content: "Browse";
+}
+
+.btn-primary {
+    background-color: #0056b3;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #004494;
+}
+
+.alert-info {
+    color: #0c5460;
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+}
+
